@@ -12,7 +12,7 @@ export default function Navbar() {
       <header className='bg-white h-16  flex flex-row font-semibold text-lg  items-center'>
           <div className='mr-24 font-extrabold ml-96'>
             <span>Bi</span>
-            <span className='text-red-500'>Dur</span>
+            <span className='text-red-500'>DURMA</span>
             <span>Bak</span>
           </div>
           <div className='flex flex-row ml-20'>{heads.map((baslik , index)=>(<Link to={baslik.toLowerCase()}> <div className='mr-9'>{baslik}</div></Link>))}</div>
